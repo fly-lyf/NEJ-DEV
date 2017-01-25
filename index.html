@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" data-framework="backbonejs">
+<head>
+    <meta charset="utf-8">
+    <title>TODOS</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css"/>
+</head>
+<body>
+<section class="todoapp">
+    <header class="header">
+        <h1>todo-list</h1>
+        <input class="new-todo" data-id="new-todo" placeholder="写入内容后按enter" autofocus>
+
+    </header>
+    <section class="main">
+        <label for="toggle-all">Mark all as complete</label>
+        <input class="toggle-all" id="toggle-all" type="checkbox">
+        <a href="#" data-id="add" class="add">add</a>
+        <ul class="todo-list"></ul>
+    </section>
+    <footer class="footer"></footer>
+</section>
+<footer class="info">
+    <p>不会做UI，只能抄了</p>
+</footer>
+</body>
+<script src="http://nej.netease.com/nej2/src/define.js?pro=./"></script>
+<script src="./js/index.js"></script>
+</html>
